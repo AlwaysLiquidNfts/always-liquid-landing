@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
 
 body {
   background-color: #5DC4FF;
@@ -27,11 +28,11 @@ body {
   color: #fff;
 }
 
-.btn-outline-primary:hover {
+.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary:checked {
   font-family: 'Lora', serif;
-  background-color: #fff;
-  border-color: #fff;
-  color: #5DC4FF;
+  background-color: #fff !important;
+  border-color: #fff !important;
+  color: #5DC4FF !important;
 }
 
 .coming-soon {
